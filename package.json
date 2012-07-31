@@ -1,6 +1,6 @@
 {
   "name": "backbone-localStorage",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A localStorage adapter for Backbone.js",
   "keywords": ["backbone", "local", "storage", "localstorage"],
   "author": "Jerome Gravel-Niquet <jeromegn@gmail.com> (http://jgn.me)",
