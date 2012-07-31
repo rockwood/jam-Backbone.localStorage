@@ -1,5 +1,5 @@
 {
-  "name": "backbone-localStoreage",
+  "name": "backbone-localStorage",
   "version": "0.0.0",
   "description": "A localStorage adapter for Backbone.js",
   "keywords": ["backbone", "local", "storage", "localstorage"],

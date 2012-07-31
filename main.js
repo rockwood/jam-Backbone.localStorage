@@ -4,15 +4,7 @@
  */
 
 (function (root, factory) {
-    if (typeof exports === 'object') {
-        // Node. Does not work with strict CommonJS, but
-        // only CommonJS-like enviroments that support module.exports,
-        // like Node.
-        module.exports = factory(
-            require('backbone')
-            require('underscore'),,
-        );
-    } else if (typeof define === 'function' && define.amd) {
+    if (typeof define === 'function' && define.amd) {
         // AMD. Register as an anonymous module.
         define(['backbone', 'underscore'], factory);
     } else {
@@ -120,7 +112,7 @@
       var resp;
 
       switch (method) {
-        case "read":    resp = model.id != undefined ? store.find(model) : store.findAll(); break;
+        case "read":    resp = model.id !== undefined ? store.find(model) : store.findAll(); break;
         case "create":  resp = store.create(model);                            break;
         case "update":  resp = store.update(model);                            break;
         case "delete":  resp = store.destroy(model);                           break;
